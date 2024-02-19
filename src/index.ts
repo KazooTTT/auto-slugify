@@ -1,5 +1,4 @@
-import type { TranslationResult } from 'bing-translate-api'
-import { translate } from 'bing-translate-api'
+import { MET } from 'bing-translate-api'
 import slugify from 'slugify'
 
 function shouldSlugify(str: string) {
@@ -14,8 +13,8 @@ export async function getSlugResult(str: string) {
   try {
     let toSlugifyStr = str
     if (shouldSlugify(str)) {
-      const { translation } = await translate(str, null, 'en') as TranslationResult
-      toSlugifyStr = translation ?? str
+      const [res] = await MET.translate(str, null, 'en') as MET.MetTranslationResult[]
+      toSlugifyStr = res.translations[0].text ?? str
       return getSlugifyString(toSlugifyStr)
     }
     return toSlugifyStr
