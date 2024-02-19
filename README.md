@@ -6,6 +6,12 @@
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
+## demo
+
+![automatically-generate-slugs](https://pictures.kazoottt.top/2024/02/20240219-b3a3e01f62cec2058120ea89e56da726.png)
+
+<https://slugify.kazoottt.top/>
+
 ## 方法: getSlugResult
 
 **描述：** 这个函数用于生成字符串的 slug。
