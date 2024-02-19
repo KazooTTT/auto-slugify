@@ -43,7 +43,7 @@ console.log(slug); // 输出: hello-world
 [npm-downloads-href]: https://npmjs.com/package/@kzttools/auto-slugify
 [bundle-src]: https://img.shields.io/bundlephobia/minzip/@kzttools/auto-slugify?style=flat&colorA=080f12&colorB=1fa669&label=minzip
 [bundle-href]: https://bundlephobia.com/result?p=@kzttools/auto-slugify
-[license-src]: https://img.shields.io/github/license/kazoottt/@kzttools/auto-slugify.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/kazoottt/@kzttools/auto-slugify/blob/main/LICENSE
+[license-src]: https://img.shields.io/github/license/kzttools/auto-slugify.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/kzttools/auto-slugify/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
 [jsdocs-href]: https://www.jsdocs.io/package/@kzttools/auto-slugify

@@ -7,15 +7,15 @@
   "author": "kazoottt",
   "license": "MIT",
   "funding": "https://github.com/sponsors/kazoottt",
-  "homepage": "https://github.com/kazoottt/auto-slugify#readme",
+  "homepage": "https://github.com/kzttools/auto-slugify#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kazoottt/auto-slugify.git"
+    "url": "git+https://github.com/kzttools/auto-slugify.git"
   },
   "publishConfig": {
     "access": "public"
   },
-  "bugs": "https://github.com/kazoottt/auto-slugify/issues",
+  "bugs": "https://github.com/kzttools/auto-slugify/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
