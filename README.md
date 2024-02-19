@@ -35,7 +35,12 @@ const slug = await getSlugResult("Hello, World!");
 console.log(slug); // 输出: hello-world
 ```
 
-**注意事项：** 如果输入的字符串包含中文，函数会先将其翻译为英文，然后再生成 slug。
+```javascript
+const slug = await getSlugResult("自动生成slug");
+console.log(slug); // 输出: automatically-generate-slugs
+```
+
+**注意：** 如果输入的字符串包含中文，函数会先将其翻译为英文，然后再生成 slug。
 
 ## Thanks
 
