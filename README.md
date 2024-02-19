@@ -1,4 +1,4 @@
-# pkg-placeholder
+# @kzttools/auto-slugify
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -6,32 +6,44 @@
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
-_description_
+## 方法: getSlugResult
 
-> **Note**:
-> Replace `pkg-placeholder`, `_description_` and `antfu` globally to use this template.
+**描述：** 这个函数用于生成字符串的 slug。
 
-## Sponsors
+**输入参数：**
 
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/antfu/static/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/antfu/static/sponsors.svg'/>
-  </a>
-</p>
+| 参数名 | 类型 | 描述 |
+| --- | --- | --- |
+| str | 字符串 | 要生成 slug 的字符串。 |
+
+**返回值：**
+
+| 类型 | 描述 |
+| --- | --- |
+| 字符串 | 生成的 slug。 |
+
+**示例用法：**
+
+```javascript
+const slug = await getSlugResult("Hello, World!");
+console.log(slug); // 输出: hello-world
+```
+
+**注意事项：** 如果输入的字符串包含中文，函数会先将其翻译为英文，然后再生成 slug。
 
 ## License
 
-[MIT](./LICENSE) License © 2023-PRESENT [Anthony Fu](https://github.com/antfu)
+[MIT](./LICENSE) License © 2024-PRESENT [kazoottt](https://github.com/kazoottt)
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/pkg-placeholder
-[npm-downloads-src]: https://img.shields.io/npm/dm/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/pkg-placeholder
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=pkg-placeholder
-[license-src]: https://img.shields.io/github/license/antfu/pkg-placeholder.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/antfu/pkg-placeholder/blob/main/LICENSE
+[npm-version-src]: https://img.shields.io/npm/v/@kzttools/auto-slugify?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/@kzttools/auto-slugify
+[npm-downloads-src]: https://img.shields.io/npm/dm/@kzttools/auto-slugify?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/@kzttools/auto-slugify
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/@kzttools/auto-slugify?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-href]: https://bundlephobia.com/result?p=@kzttools/auto-slugify
+[license-src]: https://img.shields.io/github/license/kazoottt/@kzttools/auto-slugify.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/kazoottt/@kzttools/auto-slugify/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
-[jsdocs-href]: https://www.jsdocs.io/package/pkg-placeholder
+[jsdocs-href]: https://www.jsdocs.io/package/@kzttools/auto-slugify
