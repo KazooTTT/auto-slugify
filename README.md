@@ -37,6 +37,12 @@ console.log(slug); // 输出: hello-world
 
 **注意事项：** 如果输入的字符串包含中文，函数会先将其翻译为英文，然后再生成 slug。
 
+## Thanks
+
+[bing-translate-api](https://github.com/plainheart/bing-translate-api)
+
+[slugify](https://github.com/simov/slugify)
+
 ## License
 
 [MIT](./LICENSE) License © 2024-PRESENT [kazoottt](https://github.com/kazoottt)
