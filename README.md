@@ -40,6 +40,7 @@ esm
 
 ```javascript
 import getSlugResult from "@kzttools/auto-slugify";
+...
 
 const slug = await getSlugResult("Hello, World!");
 console.log(slug); // 输出: hello-world
@@ -47,6 +48,7 @@ console.log(slug); // 输出: hello-world
 
 ```javascript
 import getSlugResult from "@kzttools/auto-slugify";
+...
 
 const slug = await getSlugResult("自动生成slug");
 console.log(slug); // 输出: automatically-generate-slugs
@@ -55,12 +57,11 @@ console.log(slug); // 输出: automatically-generate-slugs
 mjs
 
 ``` javascript
-import getSlugResult from '@kzttools/auto-slugify'
+const getSlugResult = require("@kzttools/auto-slugify")
+...
 
-export async function createSlug(value) {
-  const slug = await getSlugResult(value)
-  return slug
-}
+const slug = await getSlugResult("自动生成slug");
+console.log(slug); // 输出: automatically-generate-slugs
 ```
 
 **注意：** 如果输入的字符串包含中文，函数会先将其翻译为英文，然后再生成 slug。
