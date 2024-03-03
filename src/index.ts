@@ -9,7 +9,7 @@ function getSlugifyString(str: string) {
   return slugify(str, { lower: true, strict: true })
 }
 
-export async function getSlugResult(str: string) {
+export default async function getSlugResult(str: string) {
   try {
     let toSlugifyStr = str
     if (shouldSlugify(str)) {
