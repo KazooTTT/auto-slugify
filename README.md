@@ -10,7 +10,13 @@
 
 ![automatically-generate-slugs](https://pictures.kazoottt.top/2024/02/20240219-b3a3e01f62cec2058120ea89e56da726.png)
 
+demo's site:
+
 <https://slugify.kazoottt.top/>
+
+demo's source code:
+
+<https://github.com/KazooTTT/auto-slugify-webapp>
 
 ## 方法: getSlugResult
 
