@@ -6,7 +6,7 @@ function shouldSlugify(str: string) {
 }
 
 function getSlugifyString(str: string) {
-  return slugify(str, { lower: true, strict: true })
+  return slugify(str.trim(), { lower: true, strict: true })
 }
 
 export default async function getSlugResult(str: string) {
