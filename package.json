@@ -1,7 +1,7 @@
 {
   "name": "@kzttools/auto-slugify",
   "type": "module",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "packageManager": "pnpm@8.14.0",
   "description": "this is a pkg which make the slugify easier",
   "author": "kazoottt",
