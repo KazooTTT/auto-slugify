@@ -1,9 +1,9 @@
 {
   "name": "@kzttools/auto-slugify",
   "type": "module",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "packageManager": "pnpm@8.14.0",
-  "description": "_description_",
+  "description": "this is a pkg which make the slugify easier",
   "author": "kazoottt",
   "license": "MIT",
   "funding": "https://github.com/sponsors/kazoottt",
